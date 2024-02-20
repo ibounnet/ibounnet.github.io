@@ -27,3 +27,12 @@ for k,v in d.item():
   
 ---
 
+* การรันแต่ละอันของจารรรรร 
+
+pyside run -- python pyside6/app01.py
+
+stramlit -- streamlit run ...............
+
+diffusers ---
+ pip install --upgrade diffusers[torch]
+ pip install --upgrade transformers

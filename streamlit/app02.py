@@ -1,8 +1,7 @@
-import streamlit as st
-st.sidebar.text("Sidebar")
-st.sidebar.button('libarly')
-st.sidebar.button('corse')
-st.sidebar.button('BMI')
-st.title('OOP in ML')
-st.image('io.jpg')
-st.text_input("What is your name")
+import streamlit 
+
+h = streamlit.header('My Web Site')
+s = streamlit.subheader('บ่บอก')
+p = streamlit.write('เว็บไซต์นี้แลกมาด้วยความหิวและเร็วที่จับไม่ได้')
+banner = streamlit.image()
+b = streamlit.button('click me')
